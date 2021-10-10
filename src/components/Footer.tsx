@@ -89,11 +89,8 @@ export const Footer: FunctionComponent = () => {
             marginBottom={[2, 0]}
           >
             <LogoImage src="/images/logo_white.svg" alt="Logo" />
-            <Link href="/" passHref>
-              <FooterLink>Link 1</FooterLink>
-            </Link>
-            <Link href="/" passHref>
-              <FooterLink>Link 2</FooterLink>
+            <Link href="https://www.adrianbolonio.com/en/" passHref>
+              <FooterLink>www.adrianbolonio.com</FooterLink>
             </Link>
           </Box>
 

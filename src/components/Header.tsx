@@ -35,7 +35,7 @@ const MenuLink = styled.a`
     box-shadow: 0 2px 0 0 #23333d;
   }
   :focus {
-    outline: 3px solid #23333d;
+    outline: 3px solid tomato;
     outline-offset: 0.5rem;
   }
 `
@@ -66,14 +66,23 @@ export const Header: FunctionComponent = () => {
         <StyledNav>
           <LogoImage src="/images/logo.svg" alt="Adrian Bolonio Logo" />
           <Menu>
-            <Link href="/" passHref>
-              <MenuLink>Page 1</MenuLink>
+            <Link href="/lang" passHref>
+              <MenuLink>Language</MenuLink>
             </Link>
-            <Link href="/" passHref>
-              <MenuLink>Page 2</MenuLink>
+            <Link href="/color" passHref>
+              <MenuLink>Color</MenuLink>
             </Link>
-            <Link href="/" passHref>
-              <MenuLink>Page 3</MenuLink>
+            <Link href="/alt" passHref>
+              <MenuLink>Alt text</MenuLink>
+            </Link>
+            <Link href="/aria" passHref>
+              <MenuLink>ARIA</MenuLink>
+            </Link>
+            <Link href="/buttons" passHref>
+              <MenuLink>Buttons</MenuLink>
+            </Link>
+            <Link href="/liveregions" passHref>
+              <MenuLink>Live Regions</MenuLink>
             </Link>
           </Menu>
         </StyledNav>
