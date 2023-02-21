@@ -40,14 +40,23 @@ const Lang: NextPage = () => {
             Über diesen Link gelangen Sie zu einer neuen Seite
           </AnchorLink>
         </Box>
+      </section>
+      <section>
+        <Text as="h2">Spanish lang="es"</Text>
         <Box marginBottom="4">
-          EN:{" "}
-          <AnchorLink href="#" lang="en">
+          DE:{" "}
+          <AnchorLink href="#" lang="es">
+            Use this link to go to a new page
+          </AnchorLink>
+        </Box>
+        <Box marginBottom="4">
+          DE:{" "}
+          <AnchorLink href="#" lang="es">
             Über diesen Link gelangen Sie zu einer neuen Seite
           </AnchorLink>
         </Box>
       </section>
-      <section>
+      {/* <section>
         <Text as="h2">Language mix</Text>
         <Box marginBottom="4">
           I believe that in German, when you want to greet someone, you can say,{" "}
@@ -55,14 +64,11 @@ const Lang: NextPage = () => {
             <b>Hallo, wie geht es dir?</b>
           </q>
         </Box>
-        <Box marginBottom="4">
+        <Box lang="es" marginBottom="4">
           I believe that in German, when you don't know the other person, you
-          can say,{" "}
-          <q lang="de">
-            <b>Hallo, wie geht es dir?</b>
-          </q>
+          can say, <b>Hallo, wie geht es dir?</b>
         </Box>
-      </section>
+      </section> */}
     </PageLayoutContent>
   )
 }

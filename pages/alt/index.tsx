@@ -103,10 +103,10 @@ const Alt: NextPage = () => {
       <section>
         <Text as="h2">Image alt="" property</Text>
         <Box display="flex">
-          <LangImage src="https://media.gettyimages.com/photos/successful-young-woman-in-modern-office-working-on-laptop-picture-id899652622?b=1&k=6&m=899652622&s=612x612&w=0&h=rffMouvjRX0voij2jYm5VxyqFZGZY9Gq4ZM6eUx__0Q=" />
+          <LangImage src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg" />
 
           <LangImage
-            src="https://media.gettyimages.com/photos/successful-young-woman-in-modern-office-working-on-laptop-picture-id899652622?b=1&k=6&m=899652622&s=612x612&w=0&h=rffMouvjRX0voij2jYm5VxyqFZGZY9Gq4ZM6eUx__0Q="
+            src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg"
             alt="A person using a computer"
           />
         </Box>
@@ -116,14 +116,14 @@ const Alt: NextPage = () => {
         <Box display="flex">
           <AnchorLink href="#">
             <LangImage
-              src="https://media.gettyimages.com/photos/successful-young-woman-in-modern-office-working-on-laptop-picture-id899652622?b=1&k=6&m=899652622&s=612x612&w=0&h=rffMouvjRX0voij2jYm5VxyqFZGZY9Gq4ZM6eUx__0Q="
+              src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg"
               alt="A person using a computer"
             />
           </AnchorLink>
 
           <AnchorLink lang="de" href="#">
             <LangImage
-              src="https://media.gettyimages.com/photos/successful-young-woman-in-modern-office-working-on-laptop-picture-id899652622?b=1&k=6&m=899652622&s=612x612&w=0&h=rffMouvjRX0voij2jYm5VxyqFZGZY9Gq4ZM6eUx__0Q="
+              src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg"
               alt="Eine Person, die einen Computer benutzt"
             />
           </AnchorLink>

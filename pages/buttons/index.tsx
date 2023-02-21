@@ -126,6 +126,7 @@ const Buttons: NextPage = () => {
           <FakeDisabledButton
             className="button"
             onClick={clickHandler}
+            // @ts-ignore
             disabled
           >
             Continue
@@ -135,6 +136,7 @@ const Buttons: NextPage = () => {
             role="button"
             tabIndex={0}
             onClick={clickHandler}
+            // @ts-ignore
             disabled
           >
             Continue
