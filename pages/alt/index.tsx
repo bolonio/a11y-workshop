@@ -101,7 +101,7 @@ const Alt: NextPage = () => {
     <PageLayoutContent>
       <PageHeading>Every image must have an alt attribute.</PageHeading>
       <section>
-        <Text as="h2">Image alt="" property</Text>
+        <Text as="h2">Image alt property</Text>
         <Box display="flex">
           <LangImage src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg" />
 
@@ -112,7 +112,7 @@ const Alt: NextPage = () => {
         </Box>
       </section>
       <section>
-        <Text as="h2">Language in the Image alt="" property</Text>
+        <Text as="h2">Language in the Image alt property</Text>
         <Box display="flex">
           <AnchorLink href="#">
             <LangImage

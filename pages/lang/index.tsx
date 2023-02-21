@@ -17,7 +17,7 @@ const Lang: NextPage = () => {
     <PageLayoutContent>
       <PageHeading>Example of language detection</PageHeading>
       <section>
-        <Text as="h2">English lang="en"</Text>
+        <Text as="h2">English lang=&quot;en&quot;</Text>
 
         <Box marginBottom="4">
           EN:{" "}
@@ -27,7 +27,7 @@ const Lang: NextPage = () => {
         </Box>
       </section>
       <section>
-        <Text as="h2">German lang="de"</Text>
+        <Text as="h2">German lang=&quot;de&quot;</Text>
         <Box marginBottom="4">
           DE:{" "}
           <AnchorLink href="#" lang="de">
@@ -42,7 +42,7 @@ const Lang: NextPage = () => {
         </Box>
       </section>
       <section>
-        <Text as="h2">Spanish lang="es"</Text>
+        <Text as="h2">Spanish lang=&quot;es&quot;</Text>
         <Box marginBottom="4">
           DE:{" "}
           <AnchorLink href="#" lang="es">

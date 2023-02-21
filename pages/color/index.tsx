@@ -80,7 +80,7 @@ const ColorContrast: NextPage = () => {
       </section>
 
       <section>
-        <Text as="h2">Don't rely on color alone.</Text>
+        <Text as="h2">Do not rely on color alone.</Text>
         <ColorAreaGreenGood display="flex">
           <Image src="/images/check.png" alt="" />
           <Text>The message has been sent</Text>
